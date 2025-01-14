@@ -1,0 +1,17 @@
+demo_swap:
+  outputs:
+    dev:
+      account: "la14000.ap-southeast-1"
+      database: "demo_swap_db"
+      # 
+      # user: "{{ env_var('SNF_USER') }}"
+      # password:  "{{ env_var('SNF_PASSWORD') }}"
+      user: gauravsnow
+      password:  Gau@81294
+      # 
+      role:  "demo_swap_engginer"
+      schema: "demo_swap"
+      threads: 1
+      type: snowflake
+      warehouse:  "demo_swap_wh"
+  target: dev
